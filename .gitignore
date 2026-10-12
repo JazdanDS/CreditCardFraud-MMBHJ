@@ -219,9 +219,15 @@ __marimo__/
 
 #Personal Marcus
 testing.ipynb
+credit_fraud_pipeline_untouched_dataset.joblib
+credit_fraud_pipeline_with_undersampler.joblib
+credit_fraud_pipeline_with_smote.joblib
+credit_fraud_pipeline_smoteenn_smote.joblib
+
 
 # Data
 *.csv
+
 
 # Loggmappar
 logs/
