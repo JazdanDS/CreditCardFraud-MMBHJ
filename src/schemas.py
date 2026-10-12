@@ -14,8 +14,10 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 class PathConfig:
     input_dir: Path = PROJECT_ROOT / "data"
     log_dir: Path = PROJECT_ROOT / "logs"
+    model_dir: Path = PROJECT_ROOT / "models"
 
     def ensure_directories(self) -> None:
         """Create data and log folder if they do not exist."""
         self.input_dir.mkdir(parents=True, exist_ok=True)
         self.log_dir.mkdir(parents=True, exist_ok=True)
+        self.model_dir.mkdir(parents=True, exist_ok=True)
