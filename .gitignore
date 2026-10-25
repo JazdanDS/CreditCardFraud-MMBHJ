@@ -220,8 +220,10 @@ __marimo__/
 #Personal Marcus
 testing.ipynb
 
+
 # Data
 *.csv
+*.joblib
 
 # Loggmappar
 logs/
