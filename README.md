@@ -4,6 +4,11 @@ Det här är ett grupprojekt inom Data Science där vi undersöker hur maskininl
 
 Vi har testat flera olika modeller och jämfört resultaten för att se vilken modell som fungerar bäst på datasetet.
 
+## Gruppmedlemmar & Målgrupp
+Grupp MMBHJ: Marcus Bäckström, Martin Westberg, Ben Rinius, Henrik Andersson, Jazdan Tabrizi.  
+
+Projektets målgrupp: Beslutsstöd för utredare inom bank och kreditinstitut.
+
 ## Dataset
 
 Vi använder datasetet **Credit Card Fraud Detection** från Kaggle.
@@ -182,3 +187,6 @@ I vår jämförelse valdes Random Forest med SMOTE som slutmodell.
 På testdatan hittade modellen fler bedrägerier än Logistic Regression samtidigt som den hade få falska larm.
 
 Resultaten gäller däremot bara för det dataset och den uppdelning vi har använt. Mer testning på ny data skulle behövas innan en sådan modell skulle kunna användas i verkligheten.
+
+## Användning av generativ AI
+I enlighet med kursens anvisningar har claude, ChatGPT, copilot och gemini använts som stöd för att utmana egna resonemang och diskutera idéer (bland annat kring SMOTE), inte för att outsourca utförande. All kod och diskussion har testats och förståtts av gruppen.
