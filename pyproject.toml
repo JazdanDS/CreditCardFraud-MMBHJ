@@ -3,13 +3,19 @@ requires = ["setuptools>=77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "project_name"
+name = "credit-card-fraud-detection"
 version = "0.1.0"
-description = "project description"
+description = "Machine learning project for credit card fraud detection"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "pandas>=2.0.0",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "joblib",
+    "imbalanced-learn",
+    "jupyter",
 ]
 
 [tool.setuptools.packages.find]
